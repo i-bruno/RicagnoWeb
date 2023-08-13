@@ -1,0 +1,24 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+.mensaje{
+    width: 500px;
+    margin: 10rem;
+    padding: 1rem;
+    text-align:center;
+    display: flex;
+    flex-direction: column;
+}
+
+h1, p, a{
+    margin: 0.5rem;
+}
+
+.construccion{
+    font-size:larger;
+}
+

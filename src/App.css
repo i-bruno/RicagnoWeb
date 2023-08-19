@@ -53,10 +53,10 @@ body {
   border-width: 1px 0 0;
 }
 
-@media (max-width: 800px) {
+@media (max-width: 720px) {
 
   html,
   body {
-    width: 750px;
+    width: 720px;
   }
 }

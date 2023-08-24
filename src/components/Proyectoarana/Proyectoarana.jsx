@@ -40,7 +40,7 @@ const Proyectoarana = () => {
                 </p>
             </section>
 
-            <a href="http://www.proyectoarana.com.ar" target='_blank'><button>Proyecto Arana</button></a>
+            <a href="http://www.proyectoarana.com.ar" target='_blank' rel="noopener noreferrer"><button>Proyecto Arana</button></a>
         </div>
   )
 }

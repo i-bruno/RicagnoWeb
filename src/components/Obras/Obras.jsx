@@ -60,7 +60,7 @@ const Obras = (props) => {
           </PhotoProvider>
         </>
       )
-      break;
+      
 
     case 'pielderio':
       return (
@@ -78,7 +78,7 @@ const Obras = (props) => {
           </PhotoProvider>
         </>
       )
-      break;
+      
     case 'proyectoarana':
       return (
         <>
@@ -95,7 +95,7 @@ const Obras = (props) => {
           </PhotoProvider>
         </>
       )
-      break;
+      
     case 'silencio':
       return (
         <>
@@ -112,7 +112,7 @@ const Obras = (props) => {
           </PhotoProvider>
         </>
       )
-      break
+      
   }
 
   // return (

@@ -5,6 +5,7 @@ import Navbar from './components/Navbar/Navbar';
 import Seniorita from './components/Seniorita/Seniorita';
 import Bio from './components/Bio/Bio';
 import Contacto from './components/Contacto/Contacto';
+import 'react-photo-view/dist/react-photo-view.css';
 
 function App() {
   return (

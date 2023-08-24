@@ -2,33 +2,18 @@ import React from 'react'
 import Obras from '../Obras/Obras'
 import "./Seniorita.css"
 
+
 const Seniorita = () => {
+
+
     return (
 
         <div className="gridObra">
             <section className="galeria">
-                <div id="carouselExampleControls" className="carousel slide w-100" data-bs-ride="carousel">
-                    <div className="carousel-inner">
-                        <div className="carousel-item active">
-                            < Obras img="./img/obras/01_seniorita/Seniorita1.jpg" />
-                        </div>
-                        <div className="carousel-item">
-                            < Obras img="./img/obras/01_seniorita/senioritaDetalle1.jpg" />
-                        </div>
-                        <div className="carousel-item">
-                            < Obras img="./img/obras/01_seniorita/senioritaDetalle2.jpg" />
-                        </div>
-                    </div>
-                    <button className="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
-                        <span className="carousel-control-prev-icon bg-secondary rounded rounded-circle" aria-hidden="true"></span>
-                        <span className="visually-hidden">Anterior</span>
-                    </button>
-                    <button className="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
-                        <span className="carousel-control-next-icon bg-secondary rounded rounded-circle" aria-hidden="true"></span>
-                        <span className="visually-hidden">Siguiente</span>
-                    </button>
-                </div>
+            < Obras />
+            </section>
 
+            <section class="texto">
                 <h6 className='titulo'>
                     Señorita
                 </h6>
@@ -41,9 +26,7 @@ const Seniorita = () => {
                 <p className='textoDetalle'>
                     77 x 58 cm
                 </p>
-            </section>
 
-            <section class="texto">
                 <p>
                     La obra denuncia el uso y apropiación del cuerpo de la mujer maestra en un tiempo histórico determinado pero que aún hoy pesa en las espaldas de las trabajadoras de la educación. La naturalización del término señorita y las consecuencias de ese estereotipo. El texto del bordado es una aproximación a partir de información que ronda en el imaginario cultural de la sociedad y el ámbito educativo.
                 </p>

@@ -1,7 +1,14 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
 .gridObra {
     display: grid;
     grid-template-columns: 1fr;
-    grid-template-rows: 1.9fr 0.1fr;
+    grid-template-rows: 0.1fr 0.1fr;
     grid-auto-columns: 1fr;
     grid-auto-rows: 1fr;
     gap: 0px 0px;
@@ -13,17 +20,24 @@
 
 .galeria {
     grid-area: galeria;
+    display:flex;
+    justify-content:center;
+    flex-wrap: wrap;
 }
 
 .texto {
     grid-area: texto;
+    padding: 0.1rem;
+    margin-left: 1rem;
 }
 
-.textoDetalle{
+.textoDetalle {
     margin-bottom: 0.1rem;
+    margin-left: 1rem;
 }
 
-.titulo{
+.titulo {
     font-weight: bold;
     margin-top: 0.5rem;
+    margin-left: 1rem;
 }

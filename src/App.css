@@ -53,10 +53,31 @@ h1, p, a{
   width: 100%;
 }
 
-@media (max-width: 720px) {
+/* @media (max-width: 720px) {
 
   html,
   body {
     width: 720px;
   }
+} */
+
+/* @media only screen and (min-width: 768px){
+  html,
+  body {
+
+  }
 }
+
+@media only screen and (min-width: 1024px){
+  html,
+  body {
+
+  }
+}
+
+@media only screen and (min-width: 1200px){
+  html,
+  body {
+
+  }
+} */

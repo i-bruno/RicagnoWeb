@@ -4,17 +4,18 @@ import "./Navbar.css"
 
 const Navbar = () => {
     return (
+        <>
             <header>
                 <nav className="navbar navbar-expand-lg bg-white fixed-top border-bottom border-dark">
                     <div className="container-fluid">
-                    <a class="navbar-brand" href="/">Rocío Ricagno</a>
+                        <a class="navbar-brand" href="/">Rocío Ricagno</a>
                         <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                             <span className="navbar-toggler-icon"></span>
                         </button>
                         <div className="collapse navbar-collapse" id="navbarSupportedContent">
                             <ul className="navbar-nav me-auto mb-2 mb-lg-0">
                                 <li className="nav-item">
-                                <NavLink to={`/`} className="nav-link" aria-current="page">Inicio</NavLink>
+                                    <NavLink to={`/`} className="nav-link" aria-current="page">Inicio</NavLink>
                                 </li>
                                 <li className="nav-item">
                                     <NavLink to={`/bio`} className="nav-link">Bio</NavLink>
@@ -43,21 +44,22 @@ const Navbar = () => {
                                 </li>
                             </ul>
                             <div class="d-flex flex-column">
-                    <div className="contenedorLink">
-                        <a href="/" class="linkStyle">
-                            Español
-                        </a>
-                    </div>
-                    <div className="contenedorLink">
-                        <a href="/" class="linkStyle">
-                            English
-                        </a>
-                    </div>
-                </div>
+                                <div className="contenedorLink">
+                                    <a href="/" class="linkStyle">
+                                        Español
+                                    </a>
+                                </div>
+                                <div className="contenedorLink">
+                                    <a href="/" class="linkStyle">
+                                        English
+                                    </a>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </nav>
             </header>
+        </>
     )
 }
 

@@ -1,17 +1,11 @@
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: sans-serif;
-}
-
 .contenedorContacto{
     background-color: white;
     text-align: center;
     padding: 1rem;
     margin: 1rem;
     position: absolute;
-    top: 50%;
+    top: 100%;
     left: 50%;
     transform: translate(-50%, -50%);
+    display: block;
 }

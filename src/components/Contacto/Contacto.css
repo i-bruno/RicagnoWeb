@@ -1,11 +1,8 @@
 .contenedorContacto{
-    background-color: white;
-    text-align: center;
+    width: 500px;
+    margin: 10rem;
     padding: 1rem;
-    margin: 1rem;
-    position: absolute;
-    top: 100%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    display: block;
+    text-align:center;
+    display: flex;
+    flex-direction: column;
 }

@@ -6,14 +6,6 @@
 }
 
 body {
-  display: flex;
-  justify-content: center;
-  background-position: center 10%;
-  background-repeat: repeat;
-  align-items: center;
-  flex-direction: column;
-  overflow-x: hidden;
-  position: relative;
   padding: 1rem;
 }
 
@@ -40,11 +32,9 @@ header {
   border-width: 1px 0 0;
 }
 
-
 h1, p, a{
   margin: 0.5rem;
 }
-
 
 .App {
   display: flex;
@@ -52,32 +42,3 @@ h1, p, a{
   align-items: center;
   width: 100%;
 }
-
-/* @media (max-width: 720px) {
-
-  html,
-  body {
-    width: 720px;
-  }
-} */
-
-/* @media only screen and (min-width: 768px){
-  html,
-  body {
-
-  }
-}
-
-@media only screen and (min-width: 1024px){
-  html,
-  body {
-
-  }
-}
-
-@media only screen and (min-width: 1200px){
-  html,
-  body {
-
-  }
-} */

@@ -1,8 +1,13 @@
-import React from 'react'
+import React from 'react';
 import { NavLink } from "react-router-dom";
-import "./Navbar.css"
 
-const Navbar = () => {
+export const Navbar = () => {
+
+    function cerrar() {
+        let navbar = document.querySelector(".nav-item");
+        navbar.click();
+    }
+
     return (
         <>
             <header>
@@ -15,10 +20,10 @@ const Navbar = () => {
                         <div className="collapse navbar-collapse" id="navbarSupportedContent">
                             <ul className="navbar-nav me-auto mb-2 mb-lg-0">
                                 <li className="nav-item">
-                                    <NavLink to={`/`} className="nav-link" aria-current="page">Inicio</NavLink>
+                                    <NavLink to={`/`} className="nav-link" aria-current="page" >Inicio</NavLink>
                                 </li>
                                 <li className="nav-item">
-                                    <NavLink to={`/bio`} className="nav-link">Bio</NavLink>
+                                    <NavLink to={`/bio`} className="nav-link" >Bio</NavLink>
                                 </li>
                                 <li className="nav-item dropdown">
                                     <a className="nav-link dropdown-toggle" role="button" data-bs-toggle="dropdown" aria-expanded="false" href='/'>
@@ -29,7 +34,7 @@ const Navbar = () => {
                                             <NavLink to={`/seniorita`} className="dropdown-item w-auto">Señorita</NavLink>
                                         </li>
                                         <li>
-                                            <NavLink to={`/pielderio`} className="dropdown-item w-auto">Piel de río</NavLink>
+                                            <NavLink to={`/pielderio`} className="dropdown-item w-auto" >Piel de río</NavLink>
                                         </li>
                                         <li>
                                             <NavLink to={`/proyectoarana`} className="dropdown-item w-auto">Proyecto Arana</NavLink>
@@ -40,7 +45,7 @@ const Navbar = () => {
                                     </ul>
                                 </li>
                                 <li className="nav-item">
-                                    <NavLink to={`/contacto`} className="nav-link">Contacto</NavLink>
+                                    <NavLink to={`/contacto`} className="nav-link" >Contacto</NavLink>
                                 </li>
                             </ul>
                             <div class="d-flex flex-column">
@@ -59,8 +64,10 @@ const Navbar = () => {
                     </div>
                 </nav>
             </header>
-        </>
-    )
-}
 
-export default Navbar
+
+        </>
+    );
+};
+
+export default Navbar;

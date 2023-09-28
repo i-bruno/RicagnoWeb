@@ -10,7 +10,12 @@
 .imgObras {
     width: 150px;
     margin: 0.5rem;
-    /* object-fit: contain; */
+}
+
+.imgArana{
+    margin: 0.5rem;
+    width: 20rem;
+    object-fit: cover;
 }
 
 .imgObras:hover{
@@ -20,6 +25,10 @@
 @media only screen and (min-width: 768px){
     .contenedor{
         width: 40rem;
+    }
+
+    .imgArana{
+        width: 30rem;
     }
 }
 

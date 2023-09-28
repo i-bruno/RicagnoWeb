@@ -60,7 +60,6 @@ const Obras = (props) => {
           </PhotoProvider>
         </>
       )
-      
 
     case 'pielderio':
       return (
@@ -83,11 +82,11 @@ const Obras = (props) => {
       return (
         <>
           <PhotoProvider>
-            <div className="contenedor">
+            <div className="contenedorArana">
               {proyectoarana.map((image, index) => {
                 return (
                   <PhotoView key={index} src={image}>
-                    <img src={image} alt="obras de arte" className='imgObras' />
+                    <img src={image} alt="obras de arte" className='imgArana' />
                   </PhotoView>
                 )
               })}
@@ -112,60 +111,8 @@ const Obras = (props) => {
           </PhotoProvider>
         </>
       )
-      
+      default:
   }
-
-  // return (
-  //   <>
-  //     <PhotoProvider>
-  //       <div className="contenedor">
-  //         {seniorita.map((image, index) => {
-  //           return (
-  //             <PhotoView key={index} src={image}>
-  //               <img src={image} alt="obras de arte" className='imgObras' />
-  //             </PhotoView>
-  //           )
-  //         })}
-  //       </div>
-  //     </PhotoProvider>
-
-  //     <PhotoProvider>
-  //       <div className="contenedor">
-  //         {pielderio.map((image, index) => {
-  //           return (
-  //             <PhotoView key={index} src={image}>
-  //               <img src={image} alt="obras de arte" className='imgObras' />
-  //             </PhotoView>
-  //           )
-  //         })}
-  //       </div>
-  //     </PhotoProvider>
-
-  //     <PhotoProvider>
-  //       <div className="contenedor">
-  //         {proyectoarana.map((image, index) => {
-  //           return (
-  //             <PhotoView key={index} src={image}>
-  //               <img src={image} alt="obras de arte" className='imgObras' />
-  //             </PhotoView>
-  //           )
-  //         })}
-  //       </div>
-  //     </PhotoProvider>
-
-  //     <PhotoProvider>
-  //       <div className="contenedor">
-  //         {silencio.map((image, index) => {
-  //           return (
-  //             <PhotoView key={index} src={image}>
-  //               <img src={image} alt="obras de arte" className='imgObras' />
-  //             </PhotoView>
-  //           )
-  //         })}
-  //       </div>
-  //     </PhotoProvider>
-  //   </>
-  // )
 }
 
 

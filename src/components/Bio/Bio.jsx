@@ -47,7 +47,7 @@ const Bio = () => {
                             </li>
                         </ul>
                     <h4>
-                        Exposiciones colectivas
+                        Muestras
                     </h4>
                         <ul>
                             <li>

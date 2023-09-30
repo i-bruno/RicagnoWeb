@@ -16,13 +16,13 @@ function App() {
       <BrowserRouter>
         <Navbar />
         <Routes>
-          <Route path="/" element={<Construccion />}/>
-          <Route path="/bio" element={<Bio />}/>
-          <Route path="/seniorita" element={<Seniorita />}/>
-          <Route path="/pielderio" element={<Pielderio />}/>
-          <Route path="/proyectoarana" element={<Proyectoarana />}/>
-          <Route path="/silencio" element={<Silencio />}/>
-          <Route path="/contacto" element={<Contacto />}/>
+          <Route path="/" element={<Construccion />} />
+          <Route path="/bio" element={<Bio />} />
+          <Route path="/seniorita" element={<Seniorita />} />
+          <Route path="/pielderio" element={<Pielderio />} />
+          <Route path="/proyectoarana" element={<Proyectoarana />} />
+          <Route path="/silencio" element={<Silencio />} />
+          <Route path="/contacto" element={<Contacto />} />
         </Routes>
       </BrowserRouter>
     </div>

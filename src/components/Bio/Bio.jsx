@@ -40,6 +40,9 @@ const Bio = () => {
                                 2022 Beca Clínica de obra - La Tribu y el Territorio
                             </li>
                             <li>
+                                2022 Beca Creación - Fondo Nacional de las Artes
+                            </li>
+                            <li>
                                 2021 Beca Creación - Fondo Nacional de las Artes
                             </li>
                             <li>
@@ -51,23 +54,22 @@ const Bio = () => {
                     </h4>
                         <ul>
                             <li>
-                                2022 Mención 5to Premio MACSur - Museo de Arte Contemporáneo del Sur
+                                2023 Muestra permanente Museo Otamendi, San Fernando
                             </li>
                             <li>
-                                2022 Primera Mención 4to Salón de la Mujer: Género y Derechos - Centro Argentino de Arte Textil
+                                2022 5to Premio MACSur - Museo de Arte Contemporáneo del Sur
+                            </li>
+                            <li>
+                                2022 4to Salón de la Mujer: Género y Derechos - Centro Argentino de Arte Textil
                             </li>
                             <li>
                                 2022 Quinta el Ombú - San Fernando
                             </li>
                             <li>
                                 2021 Salón Primavera - San Fernando
-    
                             </li>
                             <li>
                                 2020/2021 VI y VII Encuentro de Arte Textil - Umbral Espacio de Arte
-                            </li>
-                            <li>
-                                2020 Lunática Artes Visuales - Paseo de las Artes Pedro de Mendoza
                             </li>
                             <li>
                                 2020 Distrito Once - Circuito de arte

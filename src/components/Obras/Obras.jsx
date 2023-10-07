@@ -7,8 +7,7 @@ const Obras = (props) => {
   let seniorita = [
     "./img/obras/01_seniorita/Seniorita1.jpg",
     "./img/obras/01_seniorita/senioritaDetalle1.jpg",
-    "./img/obras/01_seniorita/senioritaDetalle2.jpg",
-    "./img/obras/01_seniorita/senioritaDetalle3.jpg"
+    "./img/obras/01_seniorita/senioritaDetalle2.jpg"
   ]
 
   let pielderio = [
@@ -31,16 +30,12 @@ const Obras = (props) => {
   ]
 
   let silencio = [
-    "./img/obras/05_hacerHablarAlSilencio/lancha.jpeg",
     "./img/obras/05_hacerHablarAlSilencio/lancha2.jpg",
-    "./img/obras/05_hacerHablarAlSilencio/montajeSotanoDerecha.jpg",
-    "./img/obras/05_hacerHablarAlSilencio/montajeSotanoIsometrica.jpg",
-    "./img/obras/05_hacerHablarAlSilencio/montajeSotanoIsometricaPerfilA.jpg",
-    "./img/obras/05_hacerHablarAlSilencio/montajeSotanoIzquierda.jpg",
-    "./img/obras/05_hacerHablarAlSilencio/montajeSotanoParedes.jpg",
-    "./img/obras/05_hacerHablarAlSilencio/montajeSotanoTransparenciaVentana.jpg",
     "./img/obras/05_hacerHablarAlSilencio/viaje.jpg",
-    "./img/obras/05_hacerHablarAlSilencio/viaje1.jpg"
+    "./img/obras/05_hacerHablarAlSilencio/viaje1.jpg",
+    "./img/obras/05_hacerHablarAlSilencio/montajeSotanoIsometrica.jpg",
+    "./img/obras/05_hacerHablarAlSilencio/montajeSotanoIzquierda.jpg",
+    "./img/obras/05_hacerHablarAlSilencio/montajeSotanoTransparenciaVentana.jpg"
   ]
 
   switch (props.obra) {

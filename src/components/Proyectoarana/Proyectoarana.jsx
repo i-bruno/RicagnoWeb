@@ -46,7 +46,11 @@ const Proyectoarana = () => {
                 <p>
                     Las obras buscan representar la identidad hecha territorio, objeto y espacio. Una construcción poética entre las características de las bolsas de infusiones, el delta del Paraná y su piel. Una conjunción de color, humedad, fragilidad y a la vez resistencia. La piel que es frontera de su cuerpo, se extiende y se vuelve río/obra.
                 </p>
-                <a href="http://www.proyectoarana.com.ar" target='_blank' rel="noopener noreferrer"><button className="botonArana">Proyecto Arana</button></a>
+                <div className='botones'>
+                    <a href="http://www.proyectoarana.com.ar" target='_blank' rel="noopener noreferrer"><button className="botonArana">Proyecto Arana</button></a>
+
+                    <a href="http://www.proyectoarana.com.ar" target='_blank' rel="noopener noreferrer"><button className="botonArana">Arana libro</button></a>
+                </div>
             </section>
         </div>
 

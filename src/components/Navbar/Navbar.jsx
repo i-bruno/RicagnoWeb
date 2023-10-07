@@ -20,10 +20,10 @@ export const Navbar = () => {
                         <div className="collapse navbar-collapse" id="navbarSupportedContent">
                             <ul className="navbar-nav me-auto mb-2 mb-lg-0">
                                 <li className="nav-item">
-                                    <NavLink to={`/`} className="nav-link" aria-current="page" onClick={() => document.querySelector(".navbar-collapse").classList.remove("show")}>Inicio</NavLink>
+                                    <NavLink to={`/`} className="nav-link" aria-current="page">Inicio</NavLink>
                                 </li>
                                 <li className="nav-item">
-                                    <NavLink to={`/bio`} className="nav-link" onClick={() => document.querySelector(".navbar-collapse").classList.remove("show")}>Bio</NavLink>
+                                    <NavLink to={`/bio`} className="nav-link">Bio</NavLink>
                                 </li>
                                 <li className="nav-item dropdown">
                                     <a className="nav-link dropdown-toggle" role="button" data-bs-toggle="dropdown" aria-expanded="false" href='/'>
@@ -31,21 +31,50 @@ export const Navbar = () => {
                                     </a>
                                     <ul className="dropdown-menu">
                                         <li>
-                                            <NavLink to={`/seniorita`} className="dropdown-item w-auto" onClick={() => document.querySelector(".navbar-collapse").classList.remove("show")}>Señorita</NavLink>
+                                            <NavLink to={`/proyectoarana`} className="dropdown-item w-auto">
+                                                Proyecto Arana
+                                            </NavLink>
                                         </li>
                                         <li>
-                                            <NavLink to={`/pielderio`} className="dropdown-item w-auto" onClick={() => document.querySelector(".navbar-collapse").classList.remove("show")}>Piel de río</NavLink>
+                                            <NavLink to={`/silencio`} className="dropdown-item w-auto">
+                                                Hacer hablar al silencio
+                                            </NavLink>
+                                            
                                         </li>
                                         <li>
-                                            <NavLink to={`/proyectoarana`} className="dropdown-item w-auto" onClick={() => document.querySelector(".navbar-collapse").classList.remove("show")}>Proyecto Arana</NavLink>
+                                            <NavLink to={`/pielderio`} className="dropdown-item w-auto">
+                                                Piel de río
+                                            </NavLink>
                                         </li>
                                         <li>
-                                            <NavLink to={`/silencio`} className="dropdown-item w-auto" onClick={() => document.querySelector(".navbar-collapse").classList.remove("show")}>Hacer hablar al silencio</NavLink>
+                                            <NavLink to={`/capasabrigo`} className="dropdown-item w-auto">
+                                                Capas de abrigo
+                                            </NavLink>
+                                        </li>
+                                        <li>
+                                            <NavLink to={`/inestable`} className="dropdown-item w-auto">
+                                                Inestable
+                                            </NavLink>
+                                        </li>
+                                        <li>
+                                            <NavLink to={`/devastacion`} className="dropdown-item w-auto">
+                                                Devastación
+                                            </NavLink>
+                                        </li>
+                                        <li>
+                                            <NavLink to={`/devenirterritorio`} className="dropdown-item w-auto">
+                                                Devenir territorio
+                                            </NavLink>
+                                        </li>
+                                        <li>
+                                            <NavLink to={`/seniorita`} className="dropdown-item w-auto">
+                                                Señorita
+                                            </NavLink>
                                         </li>
                                     </ul>
                                 </li>
                                 <li className="nav-item">
-                                    <NavLink to={`/contacto`} className="nav-link" onClick={() => document.querySelector(".navbar-collapse").classList.remove("show")}>Contacto</NavLink>
+                                    <NavLink to={`/contacto`} className="nav-link">Contacto</NavLink>
                                 </li>
                             </ul>
                             <div class="d-flex flex-column">

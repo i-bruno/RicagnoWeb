@@ -5,6 +5,11 @@
     font-weight: bold;
 }
 
+.botonArana:hover{
+    background-color: black;
+    color: white;
+}
+
 .gridArana {
     display: grid;
     grid-template-columns: 1fr 1fr;

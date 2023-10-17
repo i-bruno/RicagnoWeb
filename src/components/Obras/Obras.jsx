@@ -4,10 +4,17 @@ import { PhotoProvider, PhotoView } from 'react-photo-view'
 
 const Obras = (props) => {
 
-  let seniorita = [
-    "./img/obras/01_seniorita/Seniorita1.jpg",
-    "./img/obras/01_seniorita/senioritaDetalle1.jpg",
-    "./img/obras/01_seniorita/senioritaDetalle2.jpg"
+  let proyectoarana = [
+    "./img/obras/01_proyectoArana/proyectoArana.jpg"
+  ]
+
+  let silencio = [
+    "./img/obras/02_hacerHablarAlSilencio/lancha2.jpg",
+    "./img/obras/02_hacerHablarAlSilencio/viaje.jpg",
+    "./img/obras/02_hacerHablarAlSilencio/viaje1.jpg",
+    "./img/obras/02_hacerHablarAlSilencio/montajeSotanoIsometrica.jpg",
+    "./img/obras/02_hacerHablarAlSilencio/montajeSotanoIzquierda.jpg",
+    "./img/obras/02_hacerHablarAlSilencio/montajeSotanoTransparenciaVentana.jpg"
   ]
 
   let pielderio = [
@@ -25,26 +32,53 @@ const Obras = (props) => {
     "./img/obras/03_pielDeRio/sinTitulo.jpg"
   ]
 
-  let proyectoarana = [
-    "./img/obras/04_proyectoArana/proyectoArana.jpg"
+  let capasabrigo = [
+
   ]
 
-  let silencio = [
-    "./img/obras/05_hacerHablarAlSilencio/lancha2.jpg",
-    "./img/obras/05_hacerHablarAlSilencio/viaje.jpg",
-    "./img/obras/05_hacerHablarAlSilencio/viaje1.jpg",
-    "./img/obras/05_hacerHablarAlSilencio/montajeSotanoIsometrica.jpg",
-    "./img/obras/05_hacerHablarAlSilencio/montajeSotanoIzquierda.jpg",
-    "./img/obras/05_hacerHablarAlSilencio/montajeSotanoTransparenciaVentana.jpg"
+  let inestable = [
+
+  ]
+
+  let devastacion = [
+
+  ]
+
+  let devenirterritorio = [
+
+  ]
+
+  let seniorita = [
+    "./img/obras/08_seniorita/Seniorita1.jpg",
+    "./img/obras/08_seniorita/senioritaDetalle1.jpg",
+    "./img/obras/08_seniorita/senioritaDetalle2.jpg"
   ]
 
   switch (props.obra) {
-    case 'seniorita':
+
+    case 'proyectoarana':
+      return (
+        <>
+          <PhotoProvider>
+            <div className="contenedorArana">
+              {proyectoarana.map((image, index) => {
+                return (
+                  <PhotoView key={index} src={image}>
+                    <img src={image} alt="obras de arte" className='imgArana' />
+                  </PhotoView>
+                )
+              })}
+            </div>
+          </PhotoProvider>
+        </>
+      )
+
+    case 'silencio':
       return (
         <>
           <PhotoProvider>
             <div className="contenedor">
-              {seniorita.map((image, index) => {
+              {silencio.map((image, index) => {
                 return (
                   <PhotoView key={index} src={image}>
                     <img src={image} alt="obras de arte" className='imgObras' />
@@ -72,30 +106,13 @@ const Obras = (props) => {
           </PhotoProvider>
         </>
       )
-      
-    case 'proyectoarana':
-      return (
-        <>
-          <PhotoProvider>
-            <div className="contenedorArana">
-              {proyectoarana.map((image, index) => {
-                return (
-                  <PhotoView key={index} src={image}>
-                    <img src={image} alt="obras de arte" className='imgArana' />
-                  </PhotoView>
-                )
-              })}
-            </div>
-          </PhotoProvider>
-        </>
-      )
-      
-    case 'silencio':
+
+    case 'capasabrigo':
       return (
         <>
           <PhotoProvider>
             <div className="contenedor">
-              {silencio.map((image, index) => {
+              {capasabrigo.map((image, index) => {
                 return (
                   <PhotoView key={index} src={image}>
                     <img src={image} alt="obras de arte" className='imgObras' />
@@ -106,7 +123,76 @@ const Obras = (props) => {
           </PhotoProvider>
         </>
       )
-      default:
+
+    case 'inestable':
+      return (
+        <>
+          <PhotoProvider>
+            <div className="contenedor">
+              {inestable.map((image, index) => {
+                return (
+                  <PhotoView key={index} src={image}>
+                    <img src={image} alt="obras de arte" className='imgObras' />
+                  </PhotoView>
+                )
+              })}
+            </div>
+          </PhotoProvider>
+        </>
+      )
+
+    case 'devastacion':
+      return (
+        <>
+          <PhotoProvider>
+            <div className="contenedor">
+              {devastacion.map((image, index) => {
+                return (
+                  <PhotoView key={index} src={image}>
+                    <img src={image} alt="obras de arte" className='imgObras' />
+                  </PhotoView>
+                )
+              })}
+            </div>
+          </PhotoProvider>
+        </>
+      )
+
+    case 'devenirterritorio':
+      return (
+        <>
+          <PhotoProvider>
+            <div className="contenedor">
+              {devenirterritorio.map((image, index) => {
+                return (
+                  <PhotoView key={index} src={image}>
+                    <img src={image} alt="obras de arte" className='imgObras' />
+                  </PhotoView>
+                )
+              })}
+            </div>
+          </PhotoProvider>
+        </>
+      )
+
+    case 'seniorita':
+      return (
+        <>
+          <PhotoProvider>
+            <div className="contenedor">
+              {seniorita.map((image, index) => {
+                return (
+                  <PhotoView key={index} src={image}>
+                    <img src={image} alt="obras de arte" className='imgObras' />
+                  </PhotoView>
+                )
+              })}
+            </div>
+          </PhotoProvider>
+        </>
+      )
+
+    default:
   }
 }
 

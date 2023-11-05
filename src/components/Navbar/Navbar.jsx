@@ -39,7 +39,12 @@ export const Navbar = () => {
                                             <NavLink to={`/silencio`} className="dropdown-item w-auto">
                                                 Hacer hablar al silencio
                                             </NavLink>
-                                            
+
+                                        </li>
+                                        <li>
+                                            <NavLink to={`/capasabrigo`} className="dropdown-item w-auto">
+                                                Capas de abrigo
+                                            </NavLink>
                                         </li>
                                         <li>
                                             <NavLink to={`/pielderio`} className="dropdown-item w-auto">
@@ -47,8 +52,13 @@ export const Navbar = () => {
                                             </NavLink>
                                         </li>
                                         <li>
-                                            <NavLink to={`/capasabrigo`} className="dropdown-item w-auto">
-                                                Capas de abrigo
+                                            <NavLink to={`/sintesis`} className="dropdown-item w-auto">
+                                                Sintesis de la memoria
+                                            </NavLink>
+                                        </li>
+                                        <li>
+                                            <NavLink to={`/memoria`} className="dropdown-item w-auto">
+                                                Memoria cartográfica
                                             </NavLink>
                                         </li>
                                         <li>

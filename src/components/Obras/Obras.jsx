@@ -17,49 +17,51 @@ const Obras = (props) => {
     "./img/obras/02_hacerHablarAlSilencio/montajeSotanoTransparenciaVentana.jpg"
   ]
 
-  let pielderio = [
-    "./img/obras/03_pielDeRio/inestable.jpg",
-    "./img/obras/03_pielDeRio/inestableDetalle2.jpg",
-    "./img/obras/03_pielDeRio/inestableDetalle3.jpg",
-    "./img/obras/03_pielDeRio/inestableDetalle4.jpg",
-    "./img/obras/03_pielDeRio/memoriaCartografica.jpg",
-    "./img/obras/03_pielDeRio/pielDeRio1.jpg",
-    "./img/obras/03_pielDeRio/pielDeRio2.jpg",
-    "./img/obras/03_pielDeRio/sinTitulo.jpg"
+  let capasabrigo = [
+    "./img/obras/03_capasAbrigo/ejercicio1.jpg",
+    "./img/obras/03_capasAbrigo/ejercicio1Detalle.jpg",
+    "./img/obras/03_capasAbrigo/ejercicio1Detalle1.jpg",
+    "./img/obras/03_capasAbrigo/ejercicio2.jpg",
+    "./img/obras/03_capasAbrigo/ejercicio3.jpg",
+    "./img/obras/03_capasAbrigo/ejercicio4.jpg"
   ]
 
-  let capasabrigo = [
-    "./img/obras/04_capasAbrigo/ejercicio1.jpg",
-    "./img/obras/04_capasAbrigo/ejercicio1Detalle.jpg",
-    "./img/obras/04_capasAbrigo/ejercicio1Detalle1.jpg",
-    "./img/obras/04_capasAbrigo/ejercicio2.jpg",
-    "./img/obras/04_capasAbrigo/ejercicio3.jpg",
-    "./img/obras/04_capasAbrigo/ejercicio4.jpg"
+  let pielderio = [
+    "./img/obras/04_pielDeRio/pielDeRio1.jpg",
+    "./img/obras/04_pielDeRio/pielDeRio2.jpg"
+  ]
+
+  let sintesis = [
+    "./img/obras/05_sintesisMemoria/sinTitulo.jpg"
+  ]
+
+  let memoria = [
+    "./img/obras/06_memoriaCartografica/memoriaCartografica.jpg"
   ]
 
   let inestable = [
-    "./img/obras/05_inestable/inestable.jpg",
-    "./img/obras/05_inestable/inestableDetalle2.jpg",
-    "./img/obras/05_inestable/inestableDetalle3.jpg",
-    "./img/obras/05_inestable/inestableDetalle4.jpg"
+    "./img/obras/07_inestable/inestable.jpg",
+    "./img/obras/07_inestable/inestableDetalle2.jpg",
+    "./img/obras/07_inestable/inestableDetalle3.jpg",
+    "./img/obras/07_inestable/inestableDetalle4.jpg"
   ]
 
   let devastacion = [
-    "./img/obras/06_devastacion/devastacionCompleta.jpg",
-    "./img/obras/06_devastacion/devastacionDetalle1.jpg",
-    "./img/obras/06_devastacion/devastacionDetalle2.jpg",
-    "./img/obras/06_devastacion/devastacionDetalle3.jpg"
+    "./img/obras/08_devastacion/devastacionCompleta.jpg",
+    "./img/obras/08_devastacion/devastacionDetalle1.jpg",
+    "./img/obras/08_devastacion/devastacionDetalle2.jpg",
+    "./img/obras/08_devastacion/devastacionDetalle3.jpg"
   ]
 
   let devenirterritorio = [
-    "./img/obras/07_devenirTerritorio/devenirTerritorio.jpg",
-    "./img/obras/07_devenirTerritorio/devenirTerritorio1.jpg"
+    "./img/obras/09_devenirTerritorio/devenirTerritorio.jpg",
+    "./img/obras/09_devenirTerritorio/devenirTerritorio1.jpg"
   ]
 
   let seniorita = [
-    "./img/obras/08_seniorita/Seniorita1.jpg",
-    "./img/obras/08_seniorita/senioritaDetalle1.jpg",
-    "./img/obras/08_seniorita/senioritaDetalle2.jpg"
+    "./img/obras/10_seniorita/Seniorita1.jpg",
+    "./img/obras/10_seniorita/senioritaDetalle1.jpg",
+    "./img/obras/10_seniorita/senioritaDetalle2.jpg"
   ]
 
   switch (props.obra) {
@@ -98,23 +100,6 @@ const Obras = (props) => {
         </>
       )
 
-    case 'pielderio':
-      return (
-        <>
-          <PhotoProvider>
-            <div className="contenedor">
-              {pielderio.map((image, index) => {
-                return (
-                  <PhotoView key={index} src={image}>
-                    <img src={image} alt="obras de arte" className='imgObras' />
-                  </PhotoView>
-                )
-              })}
-            </div>
-          </PhotoProvider>
-        </>
-      )
-
     case 'capasabrigo':
       return (
         <>
@@ -131,6 +116,57 @@ const Obras = (props) => {
           </PhotoProvider>
         </>
       )
+
+      case 'pielderio':
+        return (
+          <>
+            <PhotoProvider>
+              <div className="contenedor">
+                {pielderio.map((image, index) => {
+                  return (
+                    <PhotoView key={index} src={image}>
+                      <img src={image} alt="obras de arte" className='imgObras' />
+                    </PhotoView>
+                  )
+                })}
+              </div>
+            </PhotoProvider>
+          </>
+        )
+
+        case 'sintesis':
+          return (
+            <>
+              <PhotoProvider>
+                <div className="contenedor">
+                  {sintesis.map((image, index) => {
+                    return (
+                      <PhotoView key={index} src={image}>
+                        <img src={image} alt="obras de arte" className='imgObras' />
+                      </PhotoView>
+                    )
+                  })}
+                </div>
+              </PhotoProvider>
+            </>
+          )
+
+          case 'memoria':
+            return (
+              <>
+                <PhotoProvider>
+                  <div className="contenedor">
+                    {memoria.map((image, index) => {
+                      return (
+                        <PhotoView key={index} src={image}>
+                          <img src={image} alt="obras de arte" className='imgObras' />
+                        </PhotoView>
+                      )
+                    })}
+                  </div>
+                </PhotoProvider>
+              </>
+            )
 
     case 'inestable':
       return (

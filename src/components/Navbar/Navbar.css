@@ -11,5 +11,4 @@
 .dropdown-item.active{
     background-color: rgb(212, 212, 212) !important;
     color: black !important;
-    font-weight: bold;
 }

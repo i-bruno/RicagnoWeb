@@ -8,6 +8,11 @@ const Proyectoarana = () => {
         <div class="gridArana">
             <section className="Foto d-flex flex-column align-items-center">
                 < Obras obra='proyectoarana' />
+                <div className='botones'>
+                    <a href="http://www.proyectoarana.com.ar" target='_blank' rel="noopener noreferrer"><button className="botonArana">Proyecto Arana</button></a>
+
+                    <a href="http://www.proyectoarana.com.ar" target='_blank' rel="noopener noreferrer"><button className="botonArana">Arana libro</button></a>
+                </div>
             </section>
             <section className="Texto1">
                 <h6 className='titulo'>
@@ -46,11 +51,11 @@ const Proyectoarana = () => {
                 <p>
                     Las obras buscan representar la identidad hecha territorio, objeto y espacio. Una construcción poética entre las características de las bolsas de infusiones, el delta del Paraná y su piel. Una conjunción de color, humedad, fragilidad y a la vez resistencia. La piel que es frontera de su cuerpo, se extiende y se vuelve río/obra.
                 </p>
-                <div className='botones'>
+                {/* <div className='botones'>
                     <a href="http://www.proyectoarana.com.ar" target='_blank' rel="noopener noreferrer"><button className="botonArana">Proyecto Arana</button></a>
 
                     <a href="http://www.proyectoarana.com.ar" target='_blank' rel="noopener noreferrer"><button className="botonArana">Arana libro</button></a>
-                </div>
+                </div> */}
             </section>
         </div>
     )

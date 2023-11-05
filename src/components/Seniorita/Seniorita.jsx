@@ -10,7 +10,7 @@ const Seniorita = () => {
 
         <div className="gridObra">
             <section className="galeria">
-            < Obras obra='seniorita'/>
+                < Obras obra='seniorita' />
             </section>
 
             <section class="texto">

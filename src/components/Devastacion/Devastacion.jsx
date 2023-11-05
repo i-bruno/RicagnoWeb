@@ -1,9 +1,14 @@
 import React from 'react'
+import Obras from '../Obras/Obras'
 
 const Devastacion = () => {
     return (
         <div>
+            <section className="galeria">
+                < Obras obra='devastacion' />
+            </section>
             <section class="texto">
+
                 <h6 className='titulo'>
                     Devastación
                 </h6>

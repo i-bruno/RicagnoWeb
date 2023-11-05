@@ -1,8 +1,12 @@
 import React from 'react'
+import Obras from '../Obras/Obras'
 
 const Inestable = () => {
     return (
         <div>
+            <section className="galeria">
+                < Obras obra='inestable' />
+            </section>
             <section class="texto">
                 <h6 className='titulo'>
                     Inestable

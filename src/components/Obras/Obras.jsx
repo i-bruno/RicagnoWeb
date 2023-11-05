@@ -18,10 +18,6 @@ const Obras = (props) => {
   ]
 
   let pielderio = [
-    "./img/obras/03_pielDeRio/devastacion-min.jpg",
-    "./img/obras/03_pielDeRio/devastacionDetalle1.jpg",
-    "./img/obras/03_pielDeRio/devastacionDetalle2.jpg",
-    "./img/obras/03_pielDeRio/devastacionDetalle3.jpg",
     "./img/obras/03_pielDeRio/inestable.jpg",
     "./img/obras/03_pielDeRio/inestableDetalle2.jpg",
     "./img/obras/03_pielDeRio/inestableDetalle3.jpg",
@@ -33,19 +29,31 @@ const Obras = (props) => {
   ]
 
   let capasabrigo = [
-
+    "./img/obras/04_capasAbrigo/ejercicio1.jpg",
+    "./img/obras/04_capasAbrigo/ejercicio1Detalle.jpg",
+    "./img/obras/04_capasAbrigo/ejercicio1Detalle1.jpg",
+    "./img/obras/04_capasAbrigo/ejercicio2.jpg",
+    "./img/obras/04_capasAbrigo/ejercicio3.jpg",
+    "./img/obras/04_capasAbrigo/ejercicio4.jpg"
   ]
 
   let inestable = [
-
+    "./img/obras/05_inestable/inestable.jpg",
+    "./img/obras/05_inestable/inestableDetalle2.jpg",
+    "./img/obras/05_inestable/inestableDetalle3.jpg",
+    "./img/obras/05_inestable/inestableDetalle4.jpg"
   ]
 
   let devastacion = [
-
+    "./img/obras/06_devastacion/devastacionCompleta.jpg",
+    "./img/obras/06_devastacion/devastacionDetalle1.jpg",
+    "./img/obras/06_devastacion/devastacionDetalle2.jpg",
+    "./img/obras/06_devastacion/devastacionDetalle3.jpg"
   ]
 
   let devenirterritorio = [
-
+    "./img/obras/07_devenirTerritorio/devenirTerritorio.jpg",
+    "./img/obras/07_devenirTerritorio/devenirTerritorio1.jpg"
   ]
 
   let seniorita = [

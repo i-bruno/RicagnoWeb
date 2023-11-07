@@ -1,6 +1,5 @@
 .mensaje{
-    margin: 10rem;
-    padding: 1rem;
+    margin: 7rem;
     text-align:center;
     display: flex;
     flex-direction: column;
@@ -9,4 +8,10 @@
 .construccion{
     font-size:larger;
 }
+
+.imgObra{
+    width: 30vw;
+}
+
+
 

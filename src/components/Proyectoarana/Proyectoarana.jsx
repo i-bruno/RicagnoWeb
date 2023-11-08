@@ -34,11 +34,11 @@ const Proyectoarana = () => {
                 <p>
                     El canal se comunica con la ciudad más cercana mediante un único transporte público que cuenta con un solo horario de recorrido diario con unas tres horas de viaje.
                 </p>
-            </section>
-            <section className="Texto2 d-flex flex-column align-items-center">
                 <p>
                     El proyecto retoma el concepto principal de canal para crear un conducto poético-visual que una tiempo/territorio/comunidad, mediante el uso de la fotografía y entrevistas, para obtener registros y respuestas acerca del contexto actual social, político y económico de la comunidad y cómo se entrelaza el pasado observado desde el presente. ¿Qué los une a ese territorio? ¿Cómo viven y resisten el cambio climático, la bajante del río Paraná y los incendios clandestinos? ¿Qué relación tienen con las primeras secciones del delta? ¿Cómo es su vínculo con el turismo y el aumento de la población en los barrios privados y en consecuencia el aumento en el tránsito fluvial?
                 </p>
+            </section>
+            <section className="Texto2 d-flex flex-column align-items-center">
 
                 <p>
                     Me interesa traer a la luz los relatos que constituyen a las familias que habitaron o habitan esos espacios. Resaltando la mirada de los protagonistas se utilizará la cámara de contacto como método, entregando un dispositivo fotográfico temporalmente a cada grupo, para que más allá de las entrevistas y charlas, sean ellxs mismxs quienes compartan su modo de ver, seleccionando que mostrar y qué contar.

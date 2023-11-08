@@ -13,7 +13,7 @@
 .gridArana {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    grid-template-rows: 1fr 1fr;
+    grid-template-rows: 1fr 0.1fr;
     grid-auto-columns: 1fr;
     grid-auto-rows: 1fr;
     gap: 0px 0px;
@@ -29,10 +29,15 @@
 
 .Texto1 {
     grid-area: Texto1;
+    padding: 1px;
+    margin: 1px;
+    margin-top: 1rem;
 }
 
 .Texto2 {
     grid-area: Texto2;
+    margin: 1px;
+    padding: 1px;
 }
 
 @media only screen and (max-width: 768px){

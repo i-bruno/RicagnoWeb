@@ -11,6 +11,9 @@
 
 .imgObra{
     width: 30vw;
+    filter:brightness(19%);
+    filter:contrast(19%);
+    filter:grayscale(100%);
 }
 
 

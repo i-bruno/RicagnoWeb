@@ -22,7 +22,7 @@
     grid-area: texto;
     padding: 0.1rem;
     margin-left: 1rem;
-    width: 60rem;
+    width: auto;
 }
 
 .textoDetalle {

@@ -4,35 +4,32 @@ import Obras from '../Obras/Obras'
 
 
 const Sintesis = () => {
-  return (
-    <div className="gridObra">
-    <section className="galeria">
-        < Obras obra='sintesis' />
-    </section>
+    return (
+        <div className="gridObra">
+            <section className="galeria">
+                < Obras obra='sintesis' />
+            </section>
 
-    <section class="texto">
-        <h6 className='titulo'>
-            Síntesis de la memoria
-        </h6>
-        <p className='textoDetalle'>
-            Contrato de maestras de 1923 bordado a mano sobre guardapolvo blanco con escarapela
-        </p>
-        <p className='textoDetalle'>
-            2020
-        </p>
-        <p className='textoDetalle'>
-            77 x 58 cm
-        </p>
+            <section class="texto">
+                <h6 className='titulo'>
+                    Síntesis de la memoria
+                </h6>
+                <p className='textoDetalle'>
+                    Contrato de maestras de 1923 bordado a mano sobre guardapolvo blanco con escarapela
+                </p>
+                <p className='textoDetalle'>
+                    2020
+                </p>
+                <p className='textoDetalle'>
+                    77 x 58 cm
+                </p>
 
-        <p>
-            La obra denuncia el uso y apropiación del cuerpo de la mujer maestra en un tiempo histórico determinado pero que aún hoy pesa en las espaldas de las trabajadoras de la educación. La naturalización del término señorita y las consecuencias de ese estereotipo. El texto del bordado es una aproximación a partir de información que ronda en el imaginario cultural de la sociedad y el ámbito educativo.
-        </p>
-        <p>
-            Durante el proceso de construcción nacional se comenzó a poner a las mujeres delante del pizarrón. Se indicó que eran más idóneas para ocupar ese rol ya que la maternidad y el cuidado de los niños era en ellas algo innato, por amor, por vocación, de aquí el sueldo bajo y la poca valoración de su trabajo. Se esperaba que extendieran los cuidados y la enseñanza de valores de manera formal. Todavía resuena el dicho “como una segunda madre".
-        </p>
-    </section>
-</div>
-  )
+                <p>
+                    Síntesis de la memoria es una obra que hace hincapié en el espacio, el color y lo sensorial. Representa la fachada de la casa donde vivieron mi bisabuela, mi abuela y mi madre, ubicada en la tercera sección de islas del delta del Paraná, en la provincia de Buenos Aires. El color y la textura son un elemento activo en la obra, utilizándolo como lenguaje y código. Mediante variaciones de tonalidades sobre el soporte y gracias a la transparencia del material, se consigue un efecto óptico centrando la luz en el dibujo arquitectónico, mientras que el color imitativo del río domina la obra. Durante el proceso de trabajo las bolsas de infusiones transmutan para formar parte de un patrón geométrico siendo ubicadas cuidadosamente en yuxtaposición procurando sostener la forma, sus colores y transparencias. La geometría pensada desde la afectividad funciona como instrumento para ejercitar mis recuerdos y construir estéticamente mi memoria. 
+                </p>
+            </section>
+        </div>
+    )
 }
 
 export default Sintesis

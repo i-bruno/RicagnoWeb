@@ -24,10 +24,7 @@ const Memoria = () => {
             </p>
 
             <p>
-                La obra denuncia el uso y apropiación del cuerpo de la mujer maestra en un tiempo histórico determinado pero que aún hoy pesa en las espaldas de las trabajadoras de la educación. La naturalización del término señorita y las consecuencias de ese estereotipo. El texto del bordado es una aproximación a partir de información que ronda en el imaginario cultural de la sociedad y el ámbito educativo.
-            </p>
-            <p>
-                Durante el proceso de construcción nacional se comenzó a poner a las mujeres delante del pizarrón. Se indicó que eran más idóneas para ocupar ese rol ya que la maternidad y el cuidado de los niños era en ellas algo innato, por amor, por vocación, de aquí el sueldo bajo y la poca valoración de su trabajo. Se esperaba que extendieran los cuidados y la enseñanza de valores de manera formal. Todavía resuena el dicho “como una segunda madre".
+                Memoria cartográfica representa una porción de la 3ra. sección del delta de San Fernando, Bs. As.Tierra silenciosa, cargada de señales de un pasado activo y prolífico. El punto indica la vivienda de mi bisabuela, abuela y madre. Productoras de mimbre, madera y frutales. Para representar ese territorio utilizo restos de infusiones creando un diálogo poético entre el material y la región. Frágil, húmedo y a la vez resistente.
             </p>
         </section>
     </div>

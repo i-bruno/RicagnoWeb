@@ -1,20 +1,28 @@
 .mensaje{
-    margin: 7rem;
+    /* margin: 7rem; */
     text-align:center;
     display: flex;
     flex-direction: column;
+    align-items: center;
+    background-image: url("../../../public/img/obras/05_sintesisMemoria/sinTitulo.jpg");
+    width: 110%;
+    height: 35rem;
+    ::-webkit-scrollbar {
+        display: none;
+    }
 }
 
 .construccion{
     font-size:larger;
+    margin-top: 7rem;
 }
 
-.imgObra{
+/* .imgObra{
     width: 30vw;
     filter:brightness(19%);
     filter:contrast(19%);
     filter:grayscale(100%);
-}
+} */
 
 
 
